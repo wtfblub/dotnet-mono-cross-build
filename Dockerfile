@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.0.6-sdk-2.1.101-stretch
+FROM microsoft/dotnet:2.1.302-sdk-stretch
 
 ENV MONO_VERSION 5.8.0.127
 
