@@ -9,6 +9,6 @@ RUN echo "deb http://ftp.debian.org/debian jessie-backports main" > /etc/apt/sou
 RUN apt-get update \
   && apt-get install -y curl build-essential mingw-w64 cmake \
   && apt-get -t jessie-backports install -y git \
-  && apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev
+  && apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev \
   && apt-get install -y binutils mono-devel ca-certificates-mono fsharp mono-vbnc nuget referenceassemblies-pcl \
   && rm -rf /var/lib/apt/lists/* /tmp/*
